@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+  <!--This is Header-->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+<img width="230" src="/logo png.png" alt="">
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900">About</a>
+                <a class="mr-5 hover:text-gray-900">Services</a>
+                <a class="mr-5 hover:text-gray-900">Contact</a>
+                <a class="mr-5 hover:text-gray-900">Donation</a>
+            </nav>
+            <button class="inline-flex text-white bg-[#8dc63f] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Bank Details</button>
+            <button class="ml-4 inline-flex text-gray-700 bg-[#8dc63f] border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Donation</button>       
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is a brief introduction about myself.</p>
-        </section>
-        <section>
-            <h2>My Work</h2>
-            <div class="gallery">
-                <img src="arshad wali.webp" alt="Arshad Wali">
-                <img src="asif ismail.webp" alt="Asif Ismail">
-                <img src="donation.jpg" alt="Donation">
-                <img src="education.jpg" alt="Education">
-                <img src="family support.jpg" alt="Family Support">
-                <img src="food.jpg" alt="Food">
-                <img src="gaza.jpg" alt="Gaza">
-                <img src="iftar.jpg" alt="Iftar">
-                <img src="medical.jpg" alt="Medical">
-                <img src="ramadan.jpg" alt="Ramadan">
-                <img src="saylani 1.jpg" alt="Saylani">
-                <img src="zakat.jpg" alt="Zakat">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Portfolio</p>
-    </footer>
-</body>
-</html>
+
+<!--Hero Section-->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to the <Span style="color: #8dc63f;"> Saylani </Span> Welfare
+
+              <br class="hidden lg:inline-block">Non Governmental Or  ganization in Pakistan
+
+            </h1>
+            <p class="mb-8 leading-relaxed">Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.
+
+              .</p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-[#8dc63f] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
-              
+
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -134,7 +134,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-1 mx-auto">
           <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Various Activities</h1>
@@ -435,7 +435,7 @@
               <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                 <img src="logo png.png" alt="">
-                  
+
                 </a>
                 <p class="mt-2 text-sm text-gray-500">Jahan dukh wahan dawa, jahan umeed wahan Saylani! </p>
               </div>
@@ -475,7 +475,7 @@
                     </li>
                   </nav>
                 </div>
-                
+
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
                   <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
                   <nav class="list-none mb-10">
@@ -527,8 +527,8 @@
               </div>
             </div>
           </footer>
- 
-          
+
+
 </body>
 
 </html>
